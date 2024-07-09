@@ -1,0 +1,23 @@
+section {
+  margin: 30px auto;
+  position: relative;
+  width: 1000px;
+  height: 500px;
+}
+.section-bg {
+  width: 1000px;
+  height: 500px;
+  background-image: url("./images/bg-orange.jpg");
+  background-size: 100% 100%;
+  opacity: 0.2;
+}
+
+.section-text {
+  width: 400px;
+  height: 180px;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  top: 160px; /* (500-180)/2 */
+  left: 300px; /* (1000-400)/2 */
+}
